@@ -102,7 +102,7 @@ optim_group.add_argument('-b', '--batch-size', default=1, type=int,
 optim_group.add_argument('--optimizer', default='adam',
 						 choices=['sgd', 'rmsprop', 'adam'], metavar='N',
 						 help='optimizer (default=adam)')
-optim_group.add_argument('--lr', '--learning-rate', default=0.000008, type=float,
+optim_group.add_argument('--lr', '--learning-rate', default=0.002, type=float,
 						 metavar='LR',
 						 help='initial learning rate (default: 0.02)')
 optim_group.add_argument('--decay_rate', default=0.5, type=float, metavar='N',
