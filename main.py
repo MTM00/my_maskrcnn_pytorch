@@ -71,11 +71,11 @@ dir_group.add_argument('--val_anno_dir',metavar='VAL_ANNO_DIR',
 dir_group.add_argument('--test_img_dir',metavar='TEST_IMG_DIR',
 					   default='/data/KeyPoints/keypointdata/ai_challenger/ai_challenger_keypoint_test_a_20170923/keypoint_test_a_images_20170923',
 					   type=str,help='path to the train annotations')
-dir_group.add_argument('--resume',metavar='CHECKPOINT',default='/home/mtm/output/save/mask_4092000_6/checkpoint.pth.tar',
+dir_group.add_argument('--resume',metavar='CHECKPOINT',default='',
 					   type=str,help='path to latest checkpoint (default: none)')
 # dir_group.add_argument('--resume',metavar='CHECKPOINT',default='',
 # 					   type=str,help='path to latest checkpoint (default: none)')
-dir_group.add_argument('--save', default='/home/mtm/output/save/',
+dir_group.add_argument('--save', default='',
                        type=str, metavar='SAVE',
                        help='path to the experiment logging directory'
                        '(default: save/default-CLOCKTIME)')
